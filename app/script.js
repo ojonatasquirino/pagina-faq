@@ -45,14 +45,14 @@ function toggleTheme() {
  const currentTheme = document.body.classList.contains("dark") ? "dark" : "light";
  const newTheme = currentTheme === "dark" ? "light" : "dark";
  applyTheme(newTheme);
- localStorage.setItem("theme", newTheme); // salva o tema no LocalStorage
+ localStorage.setItem("theme", newTheme); // salva no LocalStorage
 }
 
 window.onload = function () {
  const faqContainerList = document.querySelector(".faq-container__list");
  const questionCardTemplate = document.querySelector("#question-card");
 
- // carrega o tema salvo ou aplica o tema padrão (o claro - light)
+ // carrega o tema salvo ou aplica o tema padrão (light)
  const savedTheme = localStorage.getItem("theme") || "light";
  applyTheme(savedTheme);
 
