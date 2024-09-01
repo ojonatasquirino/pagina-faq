@@ -1,26 +1,31 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css">
-  <title>FAQ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <div id="app">
     <div class="faq-container">
-      <h1 class="faq-container__title">Perguntas Frequentes</h1>
-      <section class="faq-container__questions">
-        <img src="" alt="" class="faq-container__img">
-        <ul class="faq-container__list">
-        </ul>
-      </section>
+        <h1 class="faq-container__title">Perguntas Frequentes</h1>
+        <section class="faq-container__questions">
+            <img src="public/img/faq.png" alt="FAQ Ilustração" class="faq-container__img">
+            <ul class="faq-container__list"></ul>
+        </section>
     </div>
-  </div>
-  <script type="module" src="/main.js"></script>
-</body>
+    <button id="theme-toggle" class="theme-toggle">Alternar Tema</button>
+    <!-- Template para as perguntas e respostas do FAQ -->
+    <template id="question-card">
+        <li class="faq-container__question-card">
+            <div class="faq-container__question">
+                <span class="faq-container__question-text"></span>
+                <span class="faq-container__icon">▼</span>
+            </div>
+            <div class="faq-container__answer"></div>
+        </li>
+    </template>
 
+    <script src="app/script.js"></script>
+</body>
 </html>
