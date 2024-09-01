@@ -45,7 +45,7 @@ function toggleTheme() {
  const currentTheme = document.body.classList.contains("dark") ? "dark" : "light";
  const newTheme = currentTheme === "dark" ? "light" : "dark";
  applyTheme(newTheme);
- localStorage.setItem("theme", newTheme); // salva a preferência do tema no LocalStorage
+ localStorage.setItem("theme", newTheme); // salva o tema no LocalStorage
 }
 
 window.onload = function () {
