@@ -32,7 +32,7 @@
 
 <div  align='center'> 
   
-Criar uma página contendo as respostas para as perguntas mais frequentes de uma seção do site, como a parte de FAQ. O objetivo desse mini projeto é utilizar a criatividade para implementar um design moderno e responsivo HTML, CSS e JavaScript (Vanilla).
+Criar uma página contendo as respostas para as perguntas mais frequentes de uma seção do site, como a parte de FAQ. O objetivo desse mini projeto é utilizar a criatividade para implementar um design moderno e responsivo HTML, CSS e JavaScript (Vanilla) através do ambiente do ViteJS.
 
 </div>
 
@@ -41,11 +41,11 @@ Criar uma página contendo as respostas para as perguntas mais frequentes de uma
 
 <div  align='center'> 
 
-Esse é um projeto da **<a href='https://codante.io'> Codante</a>**, uma plataforma que promove o ensino de programação através de testes e projetos práticos de programação. Esse é o 1º projeto prático que estou utilizando para testar meus conhecimentos nas tecnologias de desenvolvimento do projeto. 
+Esse é um projeto da **<a href='https://codante.io'> Codante</a>**, uma plataforma que promove o ensino de programação front-end através de testes e projetos práticos. 
 
 <hr>
 
-Acesso o  **<a href='https://codante.io'> Codante.io</a>** e aprenda front-end de forma prática! 
+Acesse o  **<a href='https://codante.io'> Codante.io</a>** e aprenda front-end de forma prática! 
 
 </div>
 
